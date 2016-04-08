@@ -61,7 +61,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
-    private View mButton;
+    private String mButton = "推送到github上面失败的原因是因为Readme需要pull下来";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
